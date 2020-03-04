@@ -17,7 +17,7 @@ class ArtistTest < Minitest::Test
   end
 
   def test_it_exists
-    assert_equal Artist, @artist
+    assert_instance_of Artist, @artist
   end
 
   def test_it_has_attributes
