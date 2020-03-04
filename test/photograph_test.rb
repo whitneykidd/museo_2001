@@ -11,7 +11,6 @@ class PhotographTest < Minitest::Test
           year: "1954"}
 
     @photograph = Photograph.new(attributes)
-
   end
 
   def test_it_exists

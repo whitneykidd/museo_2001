@@ -18,4 +18,11 @@ class Curator
       id == artist.id
     end
   end
+
+  def photographs_by_artist
+    photos_by_artist = {}
+    photo_id = @photographs.map do |photograph|
+      photograph.artist_id
+    end
+  end
 end

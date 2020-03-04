@@ -3,7 +3,6 @@ require 'minitest/pride'
 require './lib/photograph'
 require './lib/artist'
 
-
 class ArtistTest < Minitest::Test
   def setup
     attributes = {
